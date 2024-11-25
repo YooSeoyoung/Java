@@ -7,7 +7,6 @@ package GenericClass;
 //T(type), E (Element), K(Key), V(Value), N(Number) 등등
 class MyClass<T>{
     private T t;
-
     public T getT() {
         return t;
     }

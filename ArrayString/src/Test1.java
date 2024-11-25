@@ -12,7 +12,6 @@ public class Test1 {
                     arr[j+1] = temp;
                 }
             }
-            System.out.println(Arrays.toString(arr));
         }
     }
 

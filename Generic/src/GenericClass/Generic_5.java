@@ -45,6 +45,11 @@ public class Generic_5 {
         kv3.setKey("키 값만 사용");
         String key3 = kv3.getKey();
         System.out.println("key: "+ key3);
+        //setValue 사용 법(Void 타입만 매개변수로 받을 수 있음 ==> null만 가능함
+//        kv3.setValue(1); //에러 발생 Void대신 Integer 입력했기 때문
+//        kv3.setValue("Hello"); //에러 발생 Void대신 String 입력했기 때문
+        kv3.setValue(null); //null은 저장 가능
+        System.out.println(kv3.getValue());
 
 
     }
